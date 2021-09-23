@@ -2,6 +2,7 @@
 input/
 output/
 tmp/
+pretrained
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

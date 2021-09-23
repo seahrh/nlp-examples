@@ -5,7 +5,15 @@ setup(
     name="nlp-examples",
     version=__version__,
     python_requires="~=3.7",
-    install_requires=["nltk==3.6.2", "spacy==3.1.2", "tqdm==4.62.2"],
+    install_requires=[
+        "nltk==3.6.2",
+        "pandas==1.3.2",
+        "pytorch-lightning==1.4.4",
+        "sentencepiece==0.1.96",
+        "spacy==3.1.2",
+        "transformers==4.9.2",
+        "tqdm==4.62.2",
+    ],
     extras_require={
         "tests": [
             "black==20.8b1",
