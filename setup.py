@@ -11,6 +11,7 @@ setup(
         "pytorch-lightning==1.4.4",
         "sentencepiece==0.1.96",
         "spacy==3.1.2",
+        "symspellpy==6.7.6",
         "transformers==4.9.2",
         "tqdm==4.62.2",
     ],
