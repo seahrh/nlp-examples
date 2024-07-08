@@ -1,8 +1,7 @@
 .idea/
 input/
 output/
-tmp/
-pretrained
+huggingface
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
