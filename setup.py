@@ -13,7 +13,7 @@ setup(
         "spacy==3.7.4",
         "symspellpy==6.7.6",
         "protobuf==3.20.3",  # required for deberta-v3 tokenizer
-        "transformers==4.41.2",
+        "transformers==4.42.3",  # gemma-2 requires >=4.42.3
         "tqdm==4.66.4",
     ],
     extras_require={
